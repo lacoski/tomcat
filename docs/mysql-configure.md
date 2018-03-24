@@ -15,7 +15,7 @@ Ta cần set giá cho *collation_database* và *collation_server* sang **utf8_ge
 ```
 vim /etc/my.cnf
 ```
-paste đoạn mã cấu hình sau dòng *[mysqld]*:
+paste đoạn mã dưới đây sau dòng *[mysqld]*:
 ```
 # UTF8 character-set
 init_connect = 'SET collation_connection = utf8_unicode_ci'
